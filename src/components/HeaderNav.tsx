@@ -55,7 +55,7 @@ export function HeaderNav() {
           ))}
         </div>
         <a
-          href="#investidores"
+          href="https://wa.me/5585998195457"
           className="hidden rounded-full bg-gradient-to-r from-primary-500 via-neon-violet to-neon-blue px-4 py-2 text-sm font-medium text-primary-900 shadow-glow sm:inline-flex"
         >
           Falar com o time

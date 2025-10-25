@@ -68,7 +68,7 @@ export function InvestorSection() {
           </div>
           <div className="mt-8 flex flex-col gap-4 sm:flex-row">
             <a
-              href="mailto:investimentos@desenvolve.ai"
+              href="https://wa.me/5585998195457"
               className="flex-1 rounded-full bg-gradient-to-r from-neon-blue via-neon-violet to-primary-500 px-6 py-3 text-center font-medium text-primary-900 shadow-glow"
             >
               Falar com o time
