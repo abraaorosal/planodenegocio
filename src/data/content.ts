@@ -85,9 +85,9 @@ export const operationHighlights = [
   {
     title: "Modelo Híbrido",
     items: [
-      "12 turmas iniciais (manhã, tarde e noite) + estúdio EAD",
+      "18 turmas iniciais (manhã, tarde e noite) + estúdio EAD",
       "Calendário modular e diário interativo para alunos",
-      "Capacidade ativa de 144 alunos/mês"
+      "Capacidade ativa de 360 alunos/mês"
     ]
   },
   {

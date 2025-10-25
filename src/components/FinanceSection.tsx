@@ -50,7 +50,7 @@ export function FinanceSection() {
             <Slider
               label={`Alunos (${students})`}
               min={100}
-              max={260}
+              max={360}
               step={4}
               value={students}
               onChange={setStudents}

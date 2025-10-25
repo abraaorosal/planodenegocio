@@ -47,7 +47,7 @@ export function Hero() {
           {[
             {
               title: "Hub híbrido",
-              text: "Infraestrutura maker, estúdio EAD e 12 turmas simultâneas."
+              text: "Infraestrutura maker, estúdio EAD e 18 turmas simultâneas."
             },
             {
               title: "Recorrência previsível",

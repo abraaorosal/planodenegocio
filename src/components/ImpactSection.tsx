@@ -46,7 +46,7 @@ export function ImpactSection() {
         <div className="mt-6 grid gap-6 sm:grid-cols-2">
           <ImpactMetric
             title="Bolsas sociais"
-            value="30% das vagas"
+            value="10% das vagas"
             description="Financiadas por empresas locais e fundos ESG, com acompanhamento de desempenho."
           />
           <ImpactMetric
@@ -58,11 +58,6 @@ export function ImpactSection() {
             title="Comunidade"
             value="24 eventos/ano"
             description="Ciclo de hackathons, meetups e consultorias gratuitas para negócios de bairro."
-          />
-          <ImpactMetric
-            title="Diversidade"
-            value="50% mulheres e pessoas negras"
-            description="Política de seleção com foco em gênero e diversidade socioeconômica."
           />
         </div>
       </motion.div>
