@@ -38,3 +38,17 @@ O projeto utiliza Vite; ele abrirá em `http://localhost:5173` por padrão.
 - Conectar dados reais via CMS ou backend para atualizar métricas automaticamente.
 - Inserir gráficos avançados (ex.: Recharts) e vídeos no data room.
 - Publicar em plataforma de hosting (Vercel/Netlify) e criar formulário de contato integrado ao CRM.
+
+## 🌐 Publicação no GitHub Pages
+
+O repositório já inclui:
+
+- `vite.config.ts` com `base: "/planodenegocio/"` para funcionar no subcaminho do GitHub Pages.
+- Workflow `.github/workflows/deploy.yml` que executa build (`npm run build`) e publica o conteúdo de `dist/` sempre que houver push na branch `main`.
+
+Para finalizar:
+
+1. No GitHub, abra *Settings → Pages*.
+2. Em *Build and deployment*, escolha *GitHub Actions* (se ainda não estiver).
+3. Faça um push para `main` (ou use *Re-run workflow* em *Actions*). O deploy aparecerá em *Actions → Deploy to GitHub Pages*.
+4. Assim que o job `Deploy` finalizar, seu site estará disponível em `https://abraaorosal.github.io/planodenegocio/`.
